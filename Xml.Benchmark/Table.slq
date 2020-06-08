@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[XmlBenchmark](
+	[IdUser] [int] NULL,
+	[Reputation] [int] NULL,
+	[CreationDate] [datetime] NULL,
+	[DisplayName] [varchar](50) NULL,
+	[LastAccessDate] [datetime] NULL,
+	[Views] [int] NULL,
+	[UpVotes] [int] NULL,
+	[EmailHash] [varchar](100) NULL,
+	[WebsiteUrl] [varchar](400) NULL
+) ON [PRIMARY]
